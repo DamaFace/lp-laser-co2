@@ -41,21 +41,22 @@ export const depoimentosData = [
     id: 1,
     nome_paciente: "Ana F.",
     foto_paciente_url: labialDepois1.src,
-    depoimento: "O tratamento com Ultraformer na DamaFace transformou minha pele. Minha face ficou mais firme, com contornos definidos e aparência rejuvenescida."
+    depoimento: "O tratamento com Laser CO2 na DamaFace transformou minha pele. Minhas cicatrizes e manchas clarearam, a textura melhorou e fiquei com a pele muito mais uniforme e rejuvenescida."
   },
   {
     id: 2,
     nome_paciente: "Ana Maria",
     foto_paciente_url: labialDepois2.src,
-    depoimento: "Sempre notei flacidez e linhas finas. Com o Ultraformer na DamaFace, percebi um lifting natural, pele mais firme e rejuvenescida de forma segura e eficaz."
+    depoimento: "Sempre tive manchas e linhas finas que me incomodavam. Com o Laser CO2 na DamaFace, percebi um resultado incrível: pele mais lisa, firme e com aparência rejuvenescida de forma natural."
   },
   {
     id: 3,
     nome_paciente: "Luiza",
     foto_paciente_url: labialDepois3.src,
-    depoimento: "O Ultraformer na DamaFace superou minhas expectativas. Minha pele ficou mais firme, contornos definidos e aparência jovem. Recomendo totalmente!"
+    depoimento: "O Laser CO2 na DamaFace superou minhas expectativas. Minha pele ficou renovada, com textura suave, manchas reduzidas e aparência mais jovem. Recomendo totalmente!"
   }
 ];
+
 
 // Dados para a seção "Por que escolher a DamaFace?"
 export const diferenciaisData = [
@@ -80,58 +81,47 @@ export const diferenciaisData = [
     descricao: "Cuidamos de você antes, durante e depois do procedimento para garantir sua total satisfação."
   }
 ];
-
-// dados FAQ 
+// Dados FAQ 
 export const faqData = [
   {
     id: 1,
-    pergunta: "O tratamento com Ultraformer dói?",
-    resposta: "O Ultraformer na DamaFace Vinhedo é minimamente invasivo e praticamente indolor. O ultrassom microfocado permite sessões confortáveis, promovendo lifting facial, firmeza da pele e definição dos contornos sem desconforto significativo."
+    pergunta: "O tratamento com Laser CO2 dói?",
+    resposta: "O Laser CO2 na DamaFace Vinhedo é minimamente invasivo e praticamente indolor. A tecnologia de laser fracionado permite sessões seguras e confortáveis, promovendo rejuvenescimento facial e melhora da textura da pele sem desconforto significativo."
   },
   {
     id: 2,
-    pergunta: "Quantas sessões de Ultraformer são necessárias para ver resultados?",
-    resposta: "O número de sessões depende do tipo de pele, idade, área tratada e objetivo do tratamento. Em média, recomendamos de 1 a 3 sessões para resultados visíveis em firmeza, contornos definidos e rejuvenescimento facial, sempre com avaliação personalizada na DamaFace Vinhedo."
+    pergunta: "Quais problemas de pele o Laser CO2 pode tratar?",
+    resposta: "O Laser CO2 é indicado para redução de manchas, cicatrizes de acne, linhas finas, rugas superficiais e melhora da textura da pele. Ele também estimula a produção de colágeno, deixando a pele firme, rejuvenescida e uniforme."
   },
   {
     id: 3,
-    pergunta: "Quais benefícios posso esperar do Ultraformer?",
-    resposta: "O Ultraformer promove lifting facial e corporal, melhora a firmeza da pele, define contornos, suaviza linhas de expressão e estimula a produção de colágeno, proporcionando aparência natural, jovem e revitalizada."
+    pergunta: "Quantas sessões de Laser CO2 são necessárias?",
+    resposta: "O número de sessões depende do tipo de pele, área tratada e objetivo do tratamento. Em média, recomendamos de 2 a 4 sessões para resultados visíveis em firmeza, textura e rejuvenescimento facial, sempre com avaliação personalizada na DamaFace Vinhedo."
   },
   {
     id: 4,
-    pergunta: "Qual é o tempo de recuperação após o Ultraformer?",
-    resposta: "O Ultraformer possui recuperação rápida. A maioria dos pacientes retoma atividades normais imediatamente, com alguns cuidados como evitar exposição solar direta e uso de produtos agressivos nas primeiras 24 a 48 horas."
+    pergunta: "Qual é o tempo de recuperação após o Laser CO2?",
+    resposta: "O Laser CO2 possui recuperação rápida. Normalmente, a pele apresenta vermelhidão e descamação leve nos primeiros dias, mas é possível retomar atividades normais em poucos dias, com cuidados específicos indicados pela DamaFace Vinhedo."
   },
   {
     id: 5,
-    pergunta: "O Ultraformer é seguro para todos os tipos de pele?",
-    resposta: "Sim. Na DamaFace Vinhedo utilizamos tecnologia de ultrassom microfocado avançada, segura para todos os tipos de pele, garantindo resultados naturais e eficazes sem comprometer a saúde da pele."
+    pergunta: "O Laser CO2 é seguro para todos os tipos de pele?",
+    resposta: "Sim. Na DamaFace Vinhedo utilizamos tecnologia avançada de laser fracionado CO2, segura para todos os tipos de pele, garantindo resultados naturais, eficazes e duradouros."
   },
   {
     id: 6,
-    pergunta: "O Ultraformer ajuda na flacidez e definição de contornos?",
-    resposta: "Sim. O Ultraformer é altamente eficaz na melhora da firmeza da pele, definição de contornos faciais e corporais, promovendo efeito lifting natural e estimulando a produção de colágeno."
+    pergunta: "O Laser CO2 ajuda na redução de cicatrizes e manchas?",
+    resposta: "Sim. O Laser CO2 é altamente eficaz na redução de cicatrizes de acne, manchas solares e outras hiperpigmentações, promovendo uniformidade, firmeza e luminosidade da pele."
   },
   {
     id: 7,
-    pergunta: "Quanto tempo dura cada sessão de Ultraformer?",
-    resposta: "Cada sessão de Ultraformer dura entre 30 e 60 minutos, dependendo da área tratada. Na DamaFace Vinhedo, cada sessão é personalizada para máximo conforto e resultados precisos."
+    pergunta: "Quais cuidados devo ter antes do Laser CO2?",
+    resposta: "Evite exposição solar intensa, bronzeamento artificial e produtos agressivos na pele antes do procedimento. Na DamaFace Vinhedo, cada paciente recebe orientação detalhada para potencializar os resultados e garantir segurança."
   },
   {
     id: 8,
-    pergunta: "Quais cuidados devo ter antes do Ultraformer?",
-    resposta: "Evite exposição solar intensa, bronzeamento artificial e produtos agressivos na pele antes do procedimento. Na DamaFace Vinhedo, orientamos cada paciente detalhadamente para potencializar os resultados e garantir segurança."
-  },
-  {
-    id: 9,
-    pergunta: "Quais cuidados devo ter após o Ultraformer?",
-    resposta: "Após o tratamento, recomenda-se hidratar a pele, evitar calor excessivo e exposição solar direta. Seguindo estas orientações, o Ultraformer proporciona resultados duradouros em firmeza, contornos definidos e rejuvenescimento facial."
-  },
-  {
-    id: 10,
-    pergunta: "O Ultraformer é indicado para todas as idades?",
-    resposta: "Sim. O Ultraformer é seguro para adultos de todas as idades, podendo ser utilizado para lifting facial, firmeza da pele, definição de contornos e rejuvenescimento facial, sempre com avaliação personalizada na DamaFace Vinhedo."
+    pergunta: "Quais cuidados devo ter após o Laser CO2?",
+    resposta: "Após o tratamento, recomenda-se hidratar a pele, evitar exposição solar direta e produtos abrasivos. Seguindo essas orientações, o Laser CO2 proporciona pele rejuvenescida, uniforme e firme, com resultados duradouros."
   }
 ];
 
