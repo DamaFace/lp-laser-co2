@@ -58,7 +58,7 @@ const PorqueEscolher = () => {
             Pronto para sua transformação?
           </h3>
           <p className="text-base text-gray-500 mb-6 max-w-2xl mx-auto">
-            Veja como você ficaria com Ultraformer
+            Veja como você ficaria com Laser CO2
           </p>
           <Link
             href="#resultados"
