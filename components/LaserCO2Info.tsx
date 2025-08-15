@@ -1,79 +1,72 @@
 import Image from 'next/image';
-import background from 'public/back-full-face.jpeg';
+import background from '@/assets/back-full-face.jpeg';
 
 const LaserCO2Info = () => {
-  const areasTratadas = [
-    { 
-      title: "Rejuvenescimento Facial", 
-      description: "Redução de rugas e linhas de expressão, com estímulo intenso de colágeno para uma pele mais firme e jovem." 
+  const areas = [
+    {
+      title: "Rejuvenescimento Facial",
+      description: "Estimula intensa produção de colágeno para reduzir rugas e melhorar a firmeza da pele."
     },
-    { 
-      title: "Tratamento de Manchas", 
-      description: "Eliminação de melasma, manchas senis e hiperpigmentações com tecnologia precisa e eficaz." 
+    {
+      title: "Tratamento de Manchas",
+      description: "Remove eficazmente melasma, manchas senis e hiperpigmentações com precisão."
     },
-    { 
-      title: "Remoção de Cicatrizes", 
-      description: "Atenuação de cicatrizes de acne, cirúrgicas e traumáticas, melhorando a textura da pele." 
+    {
+      title: "Cicatrizes de Acne",
+      description: "Atenua cicatrizes profundas e superficiais, uniformizando a textura da pele."
     },
-    { 
-      title: "Tratamento de Queloides", 
-      description: "Redução de queloides e cicatrizes hipertróficas com resultados clinicamente comprovados." 
+    {
+      title: "Flacidez Cutânea",
+      description: "Trata a flacidez facial e corporal através do estímulo profundo de colágeno."
     },
-    { 
-      title: "Flacidez Cutânea", 
-      description: "Melhora significativa da flacidez facial e corporal através do estímulo profundo de colágeno." 
+    {
+      title: "Queloides",
+      description: "Reduz cicatrizes hipertróficas com tecnologia a laser de alta precisão."
     },
-    { 
-      title: "Prevenção do Envelhecimento", 
-      description: "Tratamento anti-aging que previne e reverte os sinais do envelhecimento cutâneo." 
+    {
+      title: "Prevenção Anti-Aging",
+      description: "Estimula renovação celular para prevenir sinais precoces de envelhecimento."
     }
   ];
 
   return (
-    <section id="laser-co2" className="py-20 bg-white">
+    <section id="procedimentos" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         {/* Título */}
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-black mb-6">
-            O Poder do
-            <span className="text-[#fa1571] font-semibold"> Laser CO2</span>
+            O que é o <span className="text-[#fa1571] font-semibold">Laser CO2</span>?
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            O padrão ouro em tratamentos dermatológicos para rejuvenescimento e correção de imperfeições
-          </p>
         </div>
 
         {/* Conteúdo */}
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           <div>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              O <strong>Laser CO2</strong> é considerado o <strong>tratamento mais completo</strong> para rejuvenescimento facial e corporal, utilizando tecnologia de <strong>alta precisão</strong> para renovar profundamente as camadas da pele. Seus resultados são <strong>transformadores</strong> e <strong>duradouros</strong>, com eficácia comprovada por especialistas em dermatologia.
+              O Laser CO2 é o tratamento mais avançado para rejuvenescimento cutâneo, utilizando tecnologia fracionada que promove renovação celular profunda e estimula a produção de colágeno.
             </p>
             <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-              Indicado para todos os tipos de pele, o Laser CO2 promove uma <strong>renovação celular intensa</strong>, estimulando a produção de colágeno e elastina, essenciais para uma pele firme, lisa e com viço juvenil.
+              Considerado padrão ouro em dermatologia, o Laser CO2 trata rugas, manchas, cicatrizes e flacidez com resultados transformadores e duradouros.
             </p>
-            <div className="bg-[#f8f9fa] rounded-2xl p-8 mb-8 border border-[#fa1571]/20">
-              <h3 className="text-2xl font-bold text-black mb-4">Vantagens Exclusivas:</h3>
+
+            <div className="bg-[#ededed] rounded-2xl p-8 mb-8">
+              <h3 className="text-2xl font-bold text-black mb-4">Principais Benefícios:</h3>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  <strong>Tecnologia padrão ouro</strong> em dermatologia estética
+                  Redução significativa de rugas e linhas de expressão
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Resultados <strong>visíveis após a primeira sessão</strong>
+                  Remoção eficaz de manchas e imperfeições
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Tratamento <strong>personalizado</strong> para cada necessidade
+                  Melhora dramática na textura e firmeza da pele
                 </li>
                 <li className="flex items-center">
                   <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Eficaz para <strong>todos os tipos de pele</strong> e idades
-                </li>
-                <li className="flex items-center">
-                  <div className="w-2 h-2 bg-[#fa1571] rounded-full mr-3"></div>
-                  Tecnologia <strong>comprovada cientificamente</strong> e aprovada pela ANVISA/FDA
+                  Resultados progressivos e duradouros
                 </li>
               </ul>
             </div>
@@ -87,7 +80,6 @@ const LaserCO2Info = () => {
                 alt="Tratamento com Laser CO2 para rejuvenescimento facial"
                 fill
                 className="object-cover"
-                priority
               />
             </div>
           </div>
@@ -98,14 +90,14 @@ const LaserCO2Info = () => {
           <h3 className="text-3xl font-bold text-center text-black mb-12">
             Principais Indicações do Laser CO2
           </h3>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {areasTratadas.map((area, index) => (
+          <div className="grid md:grid-cols-3 gap-8">
+            {areas.map((area, index) => (
               <div
                 key={index}
-                className="bg-white rounded-2xl p-6 text-center hover:shadow-lg transition-all duration-300 border border-[#fa1571]/10"
+                className="bg-[#ededed] rounded-2xl p-8 text-center hover:shadow-lg transition-shadow duration-300"
               >
-                <h4 className="text-xl font-bold text-[#fa1571] mb-3">{area.title}</h4>
-                <p className="text-gray-600 leading-relaxed">{area.description}</p>
+                <h4 className="text-xl font-bold text-black mb-4">{area.title}</h4>
+                <p className="text-gray-700 leading-relaxed">{area.description}</p>
               </div>
             ))}
           </div>
