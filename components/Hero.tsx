@@ -77,15 +77,15 @@ const Hero = () => {
             {/* Content */}
             <div className="lg:col-span-2">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold mb-6 leading-tight text-white drop-shadow-sm">
-                Ultraformer<br/>
-                <span className="text-white block font-semibold">Tecnologia avançada para</span>
-                <span className="text-[#fa1571] block font-semibold">lifting facial e firmeza da pele</span>
+                Laser CO2<br/>
+                <span className="text-white block font-semibold">O tratamento mais eficaz para</span>
+                <span className="text-[#fa1571] block font-semibold">rejuvenescer e transformar sua pele</span>
               </h1>
-                <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
-                  O <span className="text-white font-medium">Ultraformer</span> é a evolução em tratamentos estéticos com <span className="text-white font-medium">ultrassom microfocado</span>, com <span className="text-white font-medium">mais de 8 anos</span> de experiência comprovada. 
-                  Proporciona <span className="text-white font-medium">lifting facial natural</span>, melhora a firmeza da pele e define contornos, garantindo <span className="text-white font-medium">resultados duradouros</span> de forma segura. 
-                  Conquiste uma aparência <span className="text-[#fa1571] font-medium">revitalizada e rejuvenescida</span> sem cirurgia.
-                </p>
+              <p className="text-lg md:text-xl mb-8 text-gray-300 leading-relaxed max-w-2xl">
+                O <span className="text-white font-medium">Laser CO2</span> é o <strong>tratamento estético mais completo</strong> para <span className="text-white font-medium">rugas, manchas, flacidez e cicatrizes de acne</span>, com resultados clinicamente comprovados. 
+                Esta <strong>tecnologia revolucionária</strong> estimula a <span className="text-white font-medium">produção de colágeno</span>, promovendo um <strong>rejuvenescimento facial profundo</strong> e <strong>melhora significativa da textura da pele</strong>. 
+                Resultados <span className="text-[#fa1572] font-medium"><strong>visíveis desde a primeira sessão</strong></span>, com segurança e eficiência comprovadas por especialistas em dermatologia.
+              </p>
               <div className="flex flex-wrap gap-3 mb-8">
               </div>
             </div>
