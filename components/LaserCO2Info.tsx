@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import background from '@/assets/back-full-face.jpeg';
+import background from '@/public/back-full-face.jpeg';
 
 const LaserCO2Info = () => {
   const areas = [
